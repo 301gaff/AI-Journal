@@ -1,19 +1,14 @@
 AI Usage Journal
 Ryan Gaffney
+Section 0203
+rgaffney@terpmail.umd.edu
 
 Week 1:
-This week I used AI mainly for debugging and I used my previous work from another
-class to look at and see what put down for a simmilar question to see if I can
-answer the question without using AI to answer it for me.
-
-I tried out Claude AI for the first time and wanted to try and see how it 
-differs from ChatGPT to see if the results can be different or simmilar in any
-capacity. From what I found is that the results usually were the same if you 
-just copied and pasted the question in there and nothing else.
+This week I used AI mainly for debugging and I used my previous work from another class to look at and see what put down for a simmilar question to see if I can answer 
+the question without using AI to answer it for me. I tried out Claude AI for the first time and wanted to try and see how it  differs from ChatGPT to see if the results can be 
+different or simmilar in any capacity. From what I found is that the results usually were the same if you just copied and pasted the question in there and nothing else. Even though 
+it does practially give you the same answer Claude does try to explain the code and results in greater detail rather ChatGPT just gives a short description of both 
+the code and the results.
 
 Claude: https://claude.ai/share/b907db96-3c44-4449-885d-9b5384dca2d1
 ChatGPT: https://chatgpt.com/share/68c78ec2-408c-8004-8047-5195e42889c5
-
-Even though it does practially give you the same answer Claude does try to explain
-the code and results in greater detail rather ChatGPT just gives a short description
-of both the code and the results.
