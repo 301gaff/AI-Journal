@@ -1,0 +1,23 @@
+AI Usage Journal
+Ryan Gaffney
+Section 0203
+rgaffney@terpmail.umd.edu
+
+
+Week 2: 
+This week I didn’t use AI to complete the assignment itself, but I thought about
+how it could be useful for creating practice questions that explain concepts 
+with small examples. Since our focus was on conditionals, loops, and lists, 
+I could have asked AI to give me prompts like these:
+
+- Describe how a while loop is different from a for loop, 
+with an example that runs until a counter reaches 5.
+
+- Show how to combine a loop and a conditional, 
+with an example that prints only the even numbers from [2, 3, 5, 8, 10].
+
+Using AI this way would help me think about the concepts more clearly and 
+give me extra practice problems, but I made sure to work through the actual 
+assignment on my own.
+
+https://claude.ai/share/fe0d2e05-7c4a-4f44-8beb-630c7af8b195
