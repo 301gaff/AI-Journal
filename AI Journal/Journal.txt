@@ -30,3 +30,21 @@ give me extra practice problems, but I made sure to work through the actual
 assignment on my own.
 
 https://claude.ai/share/fe0d2e05-7c4a-4f44-8beb-630c7af8b195
+
+
+
+Week 3:
+This week I didn't use any AI for this weeks asignment but I did have questions pretaining to this weeks material
+- What does it mean that the argument expression is evaluated before the function is invoked?
+- What happens if a function ends without a return statement or with a return but no expression?
+
+1. Argument expressions evaluated before function invocation
+Python calculates the values of any arguments first.
+Only after that does it hand those values into the function.
+Example: print_twice(3+4) → 3+4 becomes 7 before the function runs.
+
+2. Function ending without a return (or with a bare return)
+If no return is given, or if return has no value, the function returns None.
+This is the default behavior for all “void” functions.
+
+https://claude.ai/share/62d72246-35c0-44de-aab6-9faf0dc7f386
