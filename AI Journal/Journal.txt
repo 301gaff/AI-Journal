@@ -57,7 +57,14 @@ This week I didn't use any AI at all for this week's assignment but I did have s
 2. When initializing an object, how should default values for attributes be handled, and when is it better to require explicit values?
 3. What are the implications of making an attribute mutable (like a list or dictionary) in a class?
 
+1. Attributes vs Parameters:
+    - Attributes store an object’s persistent state or identity.
+    - Parameters are for temporary, method-specific values.
+2. Default Values vs Required Values:
+    - Use defaults for optional or common starting values.
+    - Require explicit values for essential attributes that define the object.
+3. Mutable Attributes:
+    - Mutable attributes (lists, dicts) can change, which is useful but can cause unintended side effects.
+    - Always initialize mutable attributes in __init__ to give each object its own copy.
+
 https://claude.ai/share/2b075e44-c64d-4308-a9a6-30ba2ad34ffe
-
-
-
