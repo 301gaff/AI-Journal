@@ -34,7 +34,7 @@ https://claude.ai/share/fe0d2e05-7c4a-4f44-8beb-630c7af8b195
 
 
 Week 3:
-This week I didn't use any AI for this weeks asignment but I did have questions pretaining to this weeks material
+This week I didn't use any AI for this weeks assignment but I did have questions pretaining to this weeks material
 - What does it mean that the argument expression is evaluated before the function is invoked?
 - What happens if a function ends without a return statement or with a return but no expression?
 
@@ -48,3 +48,16 @@ If no return is given, or if return has no value, the function returns None.
 This is the default behavior for all “void” functions.
 
 https://claude.ai/share/62d72246-35c0-44de-aab6-9faf0dc7f386
+
+
+
+Week 4: 
+This week I didn't use any AI at all for this week's assignment but I did have some questions based on class design & attributes 
+1. How do you decide which attributes belong in a class versus being passed as parameters to its methods?
+2. When initializing an object, how should default values for attributes be handled, and when is it better to require explicit values?
+3. What are the implications of making an attribute mutable (like a list or dictionary) in a class?
+
+https://claude.ai/share/2b075e44-c64d-4308-a9a6-30ba2ad34ffe
+
+
+
