@@ -68,3 +68,32 @@ This week I didn't use any AI at all for this week's assignment but I did have s
     - Always initialize mutable attributes in __init__ to give each object its own copy.
 
 https://claude.ai/share/2b075e44-c64d-4308-a9a6-30ba2ad34ffe
+
+
+
+Week 5:
+I used AI this week for some quesitons I had about understanding encapsulation and data integrity 
+
+1. Maintaining Data Integrity:
+Encapsulation protects an object’s internal state by controlling access to its attributes. Using getters, setters, or properties:
+- Controls modifications through validation logic.
+- Enforces consistency so attributes remain in valid states.
+- Pevents invalid states by restricting direct changes.
+- Centralizes control for easier maintenance.
+
+2. Input Validation with Encapsulation:
+Encapsulation allows automatic validation whenever an attribute is modified.
+- Type checking ensures the value is the correct type.
+- Range validation prevents illogical values (e.g., negative balances).
+- Business rules like “cannot overdraw account” are enforced.
+
+3. Returning Copies in Read-Only Properties:
+- Returning a copy of a list or a tuple prevents external code from bypassing encapsulation:
+    - Without a copy, users can mutate internal lists even without a setter.
+    - Returning a copy or tuple ensures:
+        - True encapsulation
+        - Enforced validation through controlled methods
+        - Predictable behavior
+        - Better thread safety
+
+https://claude.ai/share/0effd50e-e0b5-4151-aa57-30f4aa157545
