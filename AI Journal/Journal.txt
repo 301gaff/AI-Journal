@@ -97,3 +97,39 @@ Encapsulation allows automatic validation whenever an attribute is modified.
         - Better thread safety
 
 https://claude.ai/share/0effd50e-e0b5-4151-aa57-30f4aa157545
+
+
+
+
+Week 6:
+I used AI for some questions I had pretaining to this weeks material.
+1. When would you choose a static method over a module-level function? What are the trade-offs? 
+2. What happens when you override a class method in a subclass? 
+
+1. Static Method vs Module-Level FunctionWhen to Choose Static Methods:Use static methods when:
+    - The function is logically related to a class but doesn't need instance or class data
+    - You want to organize code by grouping related utilities with a class
+    - You're building a class-based API where discoverability matters
+    - You want to enable inheritance/overriding of the utility function
+    - The function operates on data types specific to that class domain 
+
+1. When to Choose Module-Level Functions:
+    - The function is truly independent and doesn't belong to any particular class
+    - You want simpler, more Pythonic code (preferred by PEP 8)
+    - You need faster execution (no method call overhead)
+    - You're following a functional programming style
+
+2. Overriding Class Methods in Subclasses
+- When you override a class method, it follows normal method resolution order (MRO), but the method still receives the calling class (not the defining class) as its first argument.
+
+2. Key Behaviors:
+    - cls refers to the calling class, not where the method is defined
+    - Class variables are separate between parent and child (no sharing unless explicitly accessed)
+    - MRO determines which method runs (child method shadows parent)
+    - Can call parent implementation using super()
+
+2. Common Use Cases:
+    - Factory methods that return instances of the calling class
+    - Configuration methods that modify class-level settings
+    - Alternative constructors that need to respect subclass types
+
