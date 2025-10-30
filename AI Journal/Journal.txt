@@ -133,3 +133,22 @@ I used AI for some questions I had pretaining to this weeks material.
     - Configuration methods that modify class-level settings
     - Alternative constructors that need to respect subclass types
 
+Week 7:
+I used AI for some questions I had pretaining to this weeks material.
+1. Are there any constraints on using try/except blocks within methods that interact with files or databases?
+2. When validating data (like ISBNs or user IDs), do we raise exceptions or return error messages that the UI handles?
+
+1. Summary of Constraints:
+    - Always ensure cleanup: use with statements or finally blocks
+    - Be specific: catch only exceptions you expect and can handle
+    - Don't silence errors: if you can't fix it, let it propagate
+    - Use context managers: they handle cleanup automatically
+    - Consider atomicity: database transactions should succeed or fail together
+
+2. Why Raise Exceptions in Core Logic?
+    - Separation of concerns: Library classes handle business logic, UI handles presentation
+    - Flexibility: Same library code works with different UIs (CLI, GUI, web)
+    - Cannot be ignored - Exceptions force the caller to handle errors
+    - Clear flow: Normal code path vs. error path are distinct
+
+https://claude.ai/share/a5bf50f0-ae9c-414a-81f8-da329cc5202a
