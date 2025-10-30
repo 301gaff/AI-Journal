@@ -133,6 +133,9 @@ I used AI for some questions I had pretaining to this weeks material.
     - Configuration methods that modify class-level settings
     - Alternative constructors that need to respect subclass types
 
+
+
+
 Week 7:
 I used AI for some questions I had pretaining to this weeks material.
 1. Are there any constraints on using try/except blocks within methods that interact with files or databases?
