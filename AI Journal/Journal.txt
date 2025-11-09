@@ -155,3 +155,23 @@ I used AI for some questions I had pretaining to this weeks material.
     - Clear flow: Normal code path vs. error path are distinct
 
 https://claude.ai/share/a5bf50f0-ae9c-414a-81f8-da329cc5202a
+
+
+I used AI for some questions I had pretaining to this weeks assignment.
+1. How does using polymorphism (via methods like late_fee() and checkout_message()) improve the flexibility of the LoanDesk class compared to using if/elif conditionals for each book type?
+2. When designing subclasses like EBook or ReferenceBook, how do you decide whether to override an existing method (e.g., loan_period_days()) versus creating a new one (e.g., download_link())?
+
+1. Polymorphism vs. If/Elif Chains:
+    - Flexibility: Polymorphism lets each subclass define its own behavior (e.g., checkout_message()), so LoanDesk doesn’t need if/elif statements for each book type.
+    - Extensibility: You can add new subclasses (like AudioBook) without modifying existing code.
+    - Maintainability: Each class controls its own logic — changes in EBook don’t affect others.
+    - Open/Closed Principle: Code is open for extension but closed for modification.
+
+2. When to Override vs. Create New Methods
+    - Override when the behavior is conceptually shared across all types but implemented differently (e.g., loan_period_days() varies per book type).
+    - Create new methods when functionality is unique to one subtype (e.g., EBook.download_link() applies only to digital books).
+    - Guidelines:
+        - Ask “Is this a general behavior that all subclasses share?” → Override.
+        - Ask “Is this unique to this type?” → Create a new method.
+
+https://claude.ai/share/010988e4-b502-4332-8ea2-792a1133de19
