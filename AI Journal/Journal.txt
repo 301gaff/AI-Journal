@@ -178,3 +178,21 @@ I used AI for some questions I had pretaining to this weeks assignment.
         - Ask “Is this unique to this type?” → Create a new method.
 
 https://claude.ai/share/010988e4-b502-4332-8ea2-792a1133de19
+
+
+
+
+Week 9:
+I used AI for clarification on this weeks exercises 
+1. Why do virtual subclasses (registered with LibraryItem.register(...)) not automatically inherit concrete methods like due_date_from_today() or receipt_line() from LibraryItem?
+2. Why does using only the abstract API (LibraryItem methods/properties) improve flexibility in functions like checkout_any(...) and summarize_items(...)? 
+
+1.
+- Because ABC registration does not create inheritance. It only tells Python’s type system that a class should be treated as a subclass for issubclass() 
+  and isinstance().
+- Virtual subclasses do not receive any implementation from the ABC, so they must provide every method the system relies on, 
+  including concrete methods that the ABC defines using abstract hooks.
+2.
+- Depending only on the abstract API ensures your code works with any current or future item type, including virtual subclasses and adapters.
+- The function never needs to know what specific subclass it’s dealing with — it just relies on the interface contract.
+- This makes the system more extensible, reduces coupling, and lets you swap implementations behind the scenes without modifying higher-level logic.
