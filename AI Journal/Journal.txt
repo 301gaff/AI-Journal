@@ -196,3 +196,20 @@ I used AI for clarification on this weeks exercises
 - Depending only on the abstract API ensures your code works with any current or future item type, including virtual subclasses and adapters.
 - The function never needs to know what specific subclass it’s dealing with — it just relies on the interface contract.
 - This makes the system more extensible, reduces coupling, and lets you swap implementations behind the scenes without modifying higher-level logic.
+
+
+
+
+Week 10:
+I used AI for clarification on this weeks exercises 
+1. Should copies represent the total number of copies in the entire catalog, or the number currently available for checkout?
+2. When updating a book’s information, should the system mutate the existing Book object or create a new immutable instance using dataclasses.replace?
+
+1. 
+- If copies represents available copies, then __bool__ directly signals book availability (True = can be borrowed). 
+- If copies represents total inventory, truthiness becomes more of an existence check instead of a circulation status check.
+2. 
+- If updates should not mutate the original object, then using replace() maintains immutability, avoids side effects, and keeps the system predictable. 
+- If mutation is allowed, updating fields directly is simpler but can introduce bugs if multiple components share the same reference.
+
+https://claude.ai/share/e7a6a165-f85a-4549-8920-34d8698b8202
